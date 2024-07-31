@@ -1,8 +1,8 @@
-# README
+# React + Vite
 
-Run the following commands to run the portfolio locally in the backend folder:
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-- npm i express cors dotenv mongodb mongoose
-- npm i ts-node typescript nodemon @types/express @types/cors @types/node --save-dev
-- npx tsc --init
-- npm install
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
