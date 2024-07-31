@@ -1,6 +1,6 @@
 @font-face {
   font-family: Arabic;
-  src: url("/arabic.otf") format("opentype");
+  src: url("/fonts/arabic.otf") format("opentype");
 }
 
 h1.english {
