@@ -3,14 +3,25 @@
   src: url("/fonts/arabic.otf") format("opentype");
 }
 
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
 h1.english {
   font-size: 40px;
   font-family: 'Courier Prime';
   font-weight: normal;
-  line-height: 1.1;
+  line-height: 1.5;
   position: absolute;
   bottom: 8px;
   left: 45px;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: 
+    typing 7.0s steps(70, end),
+    blink-caret .5s step-end infinite;
 }
 
 h1.name2 {
@@ -22,53 +33,79 @@ h1.name2 {
   right: 45px;
 }
 
-p.about {
+button.about {
   font-family: 'Cutive Mono';
   font-size: 20px;
+  border: none;
+  background-color: white;
   font-weight: normal;
   position: absolute;
-  top: 680px;
+  top: 86%;
   right: 170px;
 }
 
-p.about:hover {
+button.about:hover {
   color: red;
 }
 
-p.resume {
+button.resume {
   font-family: 'Cutive Mono';
   font-size: 20px;
   font-weight: normal;
   position: absolute;
   bottom: 150px;
   left: 150px;
+  border: none;
+  background-color: white;
 }
 
-p.photography {
+button.resume:hover {
+  color: red;
+}
+
+button.photography {
   font-family: 'Cutive Mono';
   font-size: 20px;
   font-weight: normal;
   position: absolute;
   top: 100px;
   left: 300px;
+  border: none;
+  background-color: white;
 }
 
-p.cad {
+button.photography:hover {
+  color: red;
+}
+
+button.cad {
   font-family: 'Cutive Mono';
   font-size: 20px;
   font-weight: normal;
   position: absolute;
   top: 350px;
   left: 600px;
+  border: none;
+  background-color: white;
 }
 
-p.art {
+button.cad:hover {
+  color: red;
+}
+
+button.art {
   font-family: 'Cutive Mono';
   font-size: 20px;
   font-weight: normal;
   position: absolute;
   top: 200px;
   right: 300px;
+  border: none;
+  background-color: white;
+}
+
+button.art:hover {
+  color: red;
 }
 
 .dropbtn {
