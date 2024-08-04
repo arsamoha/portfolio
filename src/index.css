@@ -8,6 +8,11 @@
   to { width: 100% }
 }
 
+@keyframes typing2 {
+  from { width: 0 }
+  to { width: 10% }
+}
+
 h1.english {
   font-size: 40px;
   font-family: 'Courier Prime';
@@ -24,6 +29,10 @@ h1.english {
     blink-caret .5s step-end infinite;
 }
 
+h1.english:hover{
+  cursor: pointer;
+}
+
 h1.name2 {
   font-family: Arabic;
   font-size: 64px;
@@ -33,7 +42,11 @@ h1.name2 {
   right: 45px;
 }
 
-button.about {
+h1.name2:hover {
+  cursor: pointer;
+}
+
+p.about {
   font-family: 'Cutive Mono';
   font-size: 20px;
   border: none;
@@ -42,9 +55,15 @@ button.about {
   position: absolute;
   top: 86%;
   right: 170px;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: 
+    typing2 7.0s steps(60, end),
+    blink-caret .15s step-end infinite;
 }
 
-button.about:hover {
+p.about:hover {
   color: red;
 }
 

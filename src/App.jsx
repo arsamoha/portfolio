@@ -49,7 +49,7 @@ function App() {
             fontSize: isArabic2 ? '64px' : '40px',
             marginTop: isArabic2 ? '20px' : '30px'}}>{arabic}</h1>
       </div>
-      <button className="about">ABOUT ME</button>
+      <p className="about">ABOUT ME</p>
       <button className="resume">RESUME</button>
       <button className="photography">PHOTOGRAPHY</button>
       <button className="cad">CAD</button>
