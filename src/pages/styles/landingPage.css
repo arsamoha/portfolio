@@ -8,11 +8,6 @@
   to { width: 100% }
 }
 
-@keyframes typing2 {
-  from { width: 0 }
-  to { width: 10% }
-}
-
 h1.english {
   font-size: 40px;
   font-family: 'Courier Prime';
@@ -58,9 +53,6 @@ p.about {
   overflow: hidden;
   white-space: nowrap;
   margin: 0 auto;
-  animation: 
-    typing2 7.0s steps(60, end),
-    blink-caret .15s step-end infinite;
 }
 
 p.about:hover {
