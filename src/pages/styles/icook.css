@@ -3,13 +3,30 @@ body {
     font-family: Arial, sans-serif;
   }
   
-  .divider {
-    z-index: 8;
+  .column1 {
     position: fixed;
-    width: 2px;
-    background-color: black;
-    height: 100%;
-    left: 15.75%; /* Use left instead of margin-left for better positioning */
+    z-index: 8;
+    float: left;
+    width: 16.05%;
+    height: 63em;
+    border: 2px solid black;
+    background-color: white;
+  }
+  
+  .column2 {
+    position: fixed;
+    z-index: 8;
+    float: left;
+    width: 100%;
+    height: 8.5em;
+    border: 2px solid black;
+    background-color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
   }
   
   .container {
@@ -51,7 +68,7 @@ body {
     font-weight: lighter;
     left: 58%;
     transform: translateX(-50%);
-    top: 5%;
+    top: 8%;
   }
   
   @media (max-width: 768px) {

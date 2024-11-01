@@ -81,34 +81,40 @@ export default function ICook() {
 
   return (
     <div>
-      <div className="divider"></div>
-      <h2 className="icook-title">ICOOK: FULL STACK WEB DEVELOPMENT</h2>
-      <div className="container" onClick={(e) => enableAllMode(e)}>
-        {columns.map((col, index) => (
-          <div
-            key={index}
-            className="column"
-            onClick={(e) => disableAllMode(e)}
-            ref={(el) => (columnsRef.current[index] = el)}
-            style={col.style}
-          >
-            <div className="content">
-              {col.content.map((paragraph, paraIndex) => (
-                <p key={paraIndex} className="document-text">
-                  {paragraph}
-                </p>
-              ))}
-              {col.images.map((imgSrc, imgIndex) => (
-                <img
-                  key={imgIndex}
-                  src={imgSrc}
-                  alt={`Column ${index + 1} Image ${imgIndex + 1}`}
-                  className="column-image"
-                />
-              ))}
-            </div>
+      <div className="row">
+        <div className="column2"></div>
+        <div className="column1">
+          <h2 className="icook-title">ICOOK</h2>
+        </div>
+        <div className="column3">
+          <div className="container" onClick={(e) => enableAllMode(e)}>
+            {columns.map((col, index) => (
+              <div
+                key={index}
+                className="column"
+                onClick={(e) => disableAllMode(e)}
+                ref={(el) => (columnsRef.current[index] = el)}
+                style={col.style}
+              >
+                <div className="content">
+                  {col.content.map((paragraph, paraIndex) => (
+                    <p key={paraIndex} className="document-text">
+                      {paragraph}
+                    </p>
+                  ))}
+                  {col.images.map((imgSrc, imgIndex) => (
+                    <img
+                      key={imgIndex}
+                      src={imgSrc}
+                      alt={`Column ${index + 1} Image ${imgIndex + 1}`}
+                      className="column-image"
+                    />
+                  ))}
+                </div>
+              </div>
+            ))}
           </div>
-        ))}
+        </div>
       </div>
     </div>
   );
