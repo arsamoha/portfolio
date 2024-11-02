@@ -64,7 +64,7 @@ button.resume {
   font-size: 20px;
   font-weight: normal;
   position: absolute;
-  bottom: 150px;
+  bottom: 200px;
   left: 150px;
   border: none;
   background-color: white;
@@ -79,7 +79,7 @@ button.photography {
   font-size: 20px;
   font-weight: normal;
   position: absolute;
-  top: 100px;
+  margin-top: 150px;
   left: 300px;
   border: none;
   background-color: white;
@@ -94,7 +94,7 @@ button.cad {
   font-size: 20px;
   font-weight: normal;
   position: absolute;
-  top: 350px;
+  margin-top: 350px;
   left: 600px;
   border: none;
   background-color: white;
@@ -109,7 +109,7 @@ button.art {
   font-size: 20px;
   font-weight: normal;
   position: absolute;
-  top: 200px;
+  margin-top: 200px;
   right: 300px;
   border: none;
   background-color: white;
