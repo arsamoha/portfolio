@@ -3,24 +3,14 @@ body {
     font-family: Arial, sans-serif;
   }
   
-  .column1 {
-    position: fixed;
-    z-index: 8;
-    float: left;
-    width: 16.05%;
-    height: 63em;
-    border: 2px solid black;
-    background-color: white;
-  }
-  
   .column2 {
     position: fixed;
     z-index: 8;
     float: left;
     width: 100%;
     height: 8.5em;
-    border: 2px solid black;
-    background-color: white;
+    border: 1px solid black;
+    color: white;
   }
   
   .row:after {
@@ -30,27 +20,25 @@ body {
   }
   
   .container {
+    flex: 1 1 30%;
     display: flex;
     position: fixed;
     bottom: 0;
     right: 0;
-    width: 80%;
-    height: 80%;
+    width: 80.2%;
+    height: 80.3%;
     overflow: hidden;
     column-gap: 20px;
-    background-color: white;
-    border: 2px solid black;
+    border: 1px solid black;
     padding: 30px;
-    margin-top: 100px;
-    margin-left: 200px;
   }
   
   .column {
-    flex: 1 1 30%; /* Allow columns to grow and shrink */
-    min-width: 200px; /* Set a minimum width for columns */
+    flex: 1 1 30%;
+    min-width: 200px;
     display: flex;
     flex-direction: column;
-    overflow-y: auto; /* Allow vertical scrolling */
+    overflow-y: auto;
   }
   
   .content {
@@ -58,7 +46,7 @@ body {
     text-indent: 20px;
     line-height: 1.6;
     margin-bottom: 20px;
-    font-size: 1rem; /* Use rem for scalable font size */
+    font-size: 1rem;
   }
   
   .icook-title {
@@ -70,29 +58,3 @@ body {
     transform: translateX(-50%);
     top: 8%;
   }
-  
-  @media (max-width: 768px) {
-    .container {
-      flex-direction: column;
-      margin-left: 20px;
-    }
-  
-    .column {
-      flex: 1 1 100%;
-    }
-  
-    .icook-title {
-      font-size: 1.5rem;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .content {
-      font-size: 0.9rem;
-    }
-  
-    .icook-title {
-      font-size: 1.2rem;
-    }
-  }
-  
