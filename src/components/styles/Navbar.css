@@ -1,148 +1,17 @@
-.column1 {
-  position: fixed;
-  z-index: 8;
-  float: left;
-  width: 16.05%;
-  height: 63em;
-  border: 1px solid black;
-  z-index: 10;
-}
-
-.icook {
-  position: absolute;
-  text-indent: 1.5em;
-  font-size: 24px;
-  font-family: "Cutive Mono", monospace;
-  text-decoration: none;
-  color: black;
-  margin-top: 190px;
-}
-
-.icook:hover {
-  color: red;
-}
-
-.gazetracker {
-  position: absolute;
-  text-indent: 1.5em;
-  font-size: 24px;
-  font-family: "Cutive Mono", monospace;
-  text-decoration: none;
-  color: black;
-  margin-top: 220px;
-}
-
-.gazetracker:hover {
-  color: red;
-}
-
-.catsroom {
-  position: absolute;
-  text-indent: 1.5em;
-  font-size: 24px;
-  font-family: "Cutive Mono", monospace;
-  text-decoration: none;
-  color: black;
-  margin-top: 250px;
-}
-
-.catsroom:hover {
-  color: red;
-}
-
-.cad {
-  color: black;
-  font-size: 30px;
-  font-family: "Cutive Mono", monospace;
-  margin-top: 300px;
-  margin-left: 10px;
-  position: fixed;
-  text-decoration: none;
-}
-
-.cad:hover {
-  color: red;
-}
-
-.photography {
-  color: black;
-  font-size: 30px;
-  font-family: "Cutive Mono", monospace;
-  margin-top: 350px;
-  margin-left: 10px;
-  position: fixed;
-  text-decoration: none;
-}
-
-.photography:hover {
-  color: red;
-}
-
-.art {
-  color: black;
-  font-size: 30px;
-  font-family: "Cutive Mono", monospace;
-  margin-top: 400px;
-  margin-left: 10px;
-  position: fixed;
-  text-decoration: none;
-}
-
-.art:hover {
-  color: red;
-}
-
-.aboutme {
-  color: black;
-  font-size: 30px;
-  font-family: "Cutive Mono", monospace;
-  margin-top: 450px;
-  margin-left: 10px;
-  position: fixed;
-  text-decoration: none;
-}
-
-.aboutme:hover {
-  color: red;
-}
-
-.resume {
-  color: black;
-  font-size: 30px;
-  font-family: "Cutive Mono", monospace;
-  margin-top: 500px;
-  margin-left: 10px;
-  position: fixed;
-  text-decoration: none;
-}
-
-.resume:hover {
-  color: red;
-}
-
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 60px;
-}
+    list-style-type: none;
+    margin-left: 636px;
+    margin-top: -50px;
+    padding: 0;
+    width: 60px;
+  }
 
-.home {
-  font-family: "Cutive Mono", monospace;
-  font-size: 50px;
-  text-decoration: none;
-  margin-left: 2px;
-  color: black;
-  position: absolute;
-  margin-top: 11px;
-  margin-left: 11px;
+li {
+  font-family: 'EB Garamond', serif;
+  font-size: 16px;
+  font-weight: 200;
+  color: blue;
+  text-align: right;
+  margin-bottom: 13px;
 }
-
-.projects {
-  color: black;
-  font-size: 30px;
-  font-family: "Cutive Mono", monospace;
-  margin-top: 150px;
-  margin-left: 10px;
-  position: fixed;
-}
+  

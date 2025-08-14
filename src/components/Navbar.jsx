@@ -4,52 +4,31 @@ import "./styles/Navbar.css";
 export function Navbar() {
   console.log("Navbar rendered");
   return (
-    <div className="column1">
+    <div>
       <ul>
-        <li>
-          <Link className="home" to="/">
-            ARSHAD MOHAMMAD
-          </Link>
-        </li>
-        <p className="projects">PROJECTS</p>
-        <li>
-          <Link className="icook" to="/icook">
-            ICOOK
+      <li>
+          <Link to="/aboutme">
+            about me
           </Link>
         </li>
         <li>
-          <Link className="gazetracker" to="/gazetracker">
-            GAZE TRACKER
+          <Link to="/projects">
+            projects
           </Link>
         </li>
         <li>
-          <Link className="catsroom" to="/catsroom">
-            CAT'S ROOM
+          <Link to="/photography">
+            photography
           </Link>
         </li>
         <li>
-          <Link className="cad" to="/cad">
-            CAD
+          <Link to="/blog">
+            blog
           </Link>
         </li>
         <li>
-          <Link className="photography" to="/photography">
-            PHOTOGRAPHY
-          </Link>
-        </li>
-        <li>
-          <Link className="art" to="/art">
-            ART
-          </Link>
-        </li>
-        <li>
-          <Link className="aboutme" to="/aboutme">
-            ABOUT ME
-          </Link>
-        </li>
-        <li>
-          <Link className="resume" to="/resume">
-            RESUME
+          <Link to="/contact">
+            contact
           </Link>
         </li>
       </ul>
