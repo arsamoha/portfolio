@@ -1,0 +1,29 @@
+h1 {
+    color: red;
+    font-family: 'EB Garamond', serif;
+    font-weight: 800px;
+    font-style: italic;
+    margin-left: 600px;
+    margin-top: 60px;
+    font-size: 36px;
+}
+
+h2 {
+    color: black;
+    font-weight: 200px;
+    margin-left: 600px;
+    font-size: 24px;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+p.aboutme {
+    margin-left: 600px;
+    margin-right: 500px;
+}

@@ -6,7 +6,7 @@ export function Layout() {
 
   return (
     <>
-      {location.pathname !== '/' && <Navbar />}
+      {location.pathname !== '/'}
       <main>
         <Outlet />
       </main>
