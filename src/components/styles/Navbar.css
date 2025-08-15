@@ -4,14 +4,26 @@ ul {
     margin-top: -50px;
     padding: 0;
     width: 60px;
+    text-align: right;
   }
 
 li {
+  display: inline-block;
   font-family: 'EB Garamond', serif;
   font-size: 16px;
   font-weight: 200;
   color: blue;
-  text-align: right;
   margin-bottom: 13px;
 }
-  
+
+.photography {
+  margin-left: -18px;
+}
+
+a:link{
+  color:blue;
+}
+
+a:visited{
+  color:blue;
+}

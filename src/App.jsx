@@ -5,16 +5,18 @@ import { Projects } from "./pages/Projects";
 import { Photography } from "./pages/Photography";
 import { Blog } from "./pages/Blog";
 import { Contact } from "./pages/Contact";
-import { Layout } from "./Layout";
 import { Home } from "./pages/Home";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route element={<Layout />}>
-          <Route path="/" element={<Home />} />
-        </Route>
+        <Route path="/" element={<Home />} />
+        <Route path="/aboutme" element={<AboutMe />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/photography" element={<Photography />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
   );

@@ -17,7 +17,7 @@ export function Navbar() {
           </Link>
         </li>
         <li>
-          <Link to="/photography">
+          <Link className="photography" to="/photography">
             photography
           </Link>
         </li>
