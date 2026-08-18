@@ -1,0 +1,99 @@
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 100px 40px;
+  box-sizing: border-box;
+}
+
+.projects-wrapper {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  gap: 60px;
+  max-width: 900px;
+}
+
+.projects-left {
+  width: 290px;
+  flex-shrink: 0;
+  text-align: right;
+}
+
+.projects-right {
+  flex: 1;
+  max-width: 520px;
+}
+
+.projects-title {
+  color: red;
+  font-family: 'EB Garamond', serif;
+  font-weight: 800;
+  font-size: 36px;
+  margin: 0 0 24px 0;
+  font-style: normal; 
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 13px;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: 'EB Garamond', serif;
+  font-size: 16px;
+  font-weight: 200;
+  color: blue;
+  text-decoration: underline;
+  padding: 0;
+  text-align: right;
+}
+
+button.active {
+  font-weight: 700;
+}
+
+.project-title {
+  color: blue;
+  font-size: 16px;
+  font-style: bold;
+  font-weight: bold;
+  font-family: 'EB Garamond', bold;
+  font-size: 28px;
+  margin-top: 8px;
+}
+
+.project-date {
+  font-weight: 700;
+  font-size: 16px;
+  margin: 4px 0;
+}
+
+.project-subtitle {
+  font-style: italic;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+.project-video-local {
+  width: 100%;
+  height: 100%;
+  max-width: 520px;
+  max-height: 520px;
+  margin-bottom: 20px;
+}
+
+.project-gif-local {
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+  margin-bottom: 0px;
+}

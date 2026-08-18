@@ -2,7 +2,7 @@ import "../pages/styles/AboutMe.css";
 
 export function AboutMe() {
   return (
-    <div>
+    <div className="aboutme-container">
       <h1>About lil ol' me</h1>
       <p className="aboutme">
         I&apos;m a very fidgety person. I don&apos;t know if it&apos;s that bad
