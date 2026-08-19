@@ -1,12 +1,34 @@
 import "../pages/styles/Home.css";
 import { Navbar } from "../components/Navbar";
+import { useState } from "react";
 
 export function Home() {
+
+  const [name, setName] = useState("أرشد محمد");
+  const isUrdu = name === "أرشد محمد";
+  const isTelugu = name == "అర్షద్ మహ్మద్";
+
+  function changeName() {
+    if (name === "أرشد محمد") {
+      setName("అర్షద్ మహ్మద్");
+    } else if (name === "అర్షద్ మహ్మద్") {
+      setName("अरशद मोहम्मद");
+    } else if (name === "अरशद मोहम्मद") {
+      setName("أرشد محمد");
+    } else {
+      setName("أرشد محمد");
+    }
+  }
+
   return (
     <div className="page-wrapper">
       <div className="flex-container">
         <div className="flex-child">
-          <p className="urdu">ارشد محمد</p>
+          <p className="urdu"
+          onClick={changeName}
+          style={{ fontFamily: isUrdu ? 'Noto Nastaliq Urdu' : isTelugu ? 'Ramaraja': 'Tiro Devanagari Hindi',
+          fontSize: isUrdu ? '48px' : '34px',
+          marginTop: isUrdu ? '-10px' : isTelugu ? '13px' : '16px'}}>{name}</p>
           <Navbar />
         </div>
         <div className="flex-child">

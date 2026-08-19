@@ -64,23 +64,26 @@ button.active {
 .project-title {
   color: blue;
   font-size: 16px;
-  font-style: bold;
-  font-weight: bold;
+  font-style: italic;
+  font-weight: 900;
   font-family: 'EB Garamond', bold;
   font-size: 28px;
   margin-top: 8px;
 }
 
 .project-date {
-  font-weight: 700;
+  font-weight: 900;
   font-size: 16px;
-  margin: 4px 0;
+  font-style: italic;
+  color: rgb(106, 105, 105);
+  margin: 0 0 5px 0;
 }
 
 .project-subtitle {
   font-style: italic;
   font-size: 16px;
-  margin-bottom: 24px;
+  margin: 0 0 24px 0;
+  color: rgb(106, 105, 105);
 }
 
 .project-video-local {

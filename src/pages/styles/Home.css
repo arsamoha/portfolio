@@ -37,11 +37,14 @@ body {
 .urdu {
   font-family: 'Noto Nastaliq Urdu';
   color: red;
-  text-shadow: black 0 -1px;
+  text-shadow: rgb(47, 47, 47) 0 -0.5px;
   font-size: 48px;
   text-align: right;
   margin: 0;
   margin-top: -20px;
+}
+.urdu:hover {
+  cursor: pointer;
 }
 
 .paragraph {
